@@ -67,4 +67,8 @@ p {
     width: 20; 
     height: auto;
 }
-
+@media screen and (max-width: 600px) {
+    header, nav, main, footer {
+        width: 100%; 
+    }
+}
